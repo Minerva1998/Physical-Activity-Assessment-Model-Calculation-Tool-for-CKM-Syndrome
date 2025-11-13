@@ -1,0 +1,1 @@
+# Physical-Activity-Assessment-Model-Calculation-Tool-for-CKM-Syndrome
