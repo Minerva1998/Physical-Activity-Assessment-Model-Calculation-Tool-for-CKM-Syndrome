@@ -1,0 +1,35 @@
+{
+  "name": "physical-activity-calculator",
+  "version": "1.0.0",
+  "description": "Physical Activity Assessment Model Calculation Tool for CKM Syndrome",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "body-parser": "^1.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "keywords": ["health", "calculation", "CKM", "physical-activity"],
+  "author": "Your Name",
+  "license": "MIT"
+}
+# 在项目根目录运行
+npm install
+您的项目名称/
+├── app/                 # R Shiny应用文件
+│   ├── app.R
+│   ├── model.rds        # 训练好的模型
+│   └── requirements.R   # R依赖列表
+├── server/              # Node.js后端（如果需要）
+│   ├── index.js
+│   └── package.json
+├── docs/                # 文档
+│   └── README.md
+├── package.json         # Node.js项目配置
+├── .gitignore
+└── deploy.sh           # 部署脚本
