@@ -1,0 +1,447 @@
+{
+  "model_info": [
+    {
+      "baseline": 0.6031,
+      "n_samples": 100,
+      "n_features": 10,
+      "model_type": "Logistic Regression",
+      "timestamp": "2025-11-13 21:40:35"
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "BSCS_FT1",
+      "mean_abs_shap": 0.1263,
+      "mean_shap": 0.0199,
+      "direction": "positive",
+      "_row": "BSCS_FT1"
+    },
+    {
+      "feature": "BSCS_ZT1",
+      "mean_abs_shap": 0.1183,
+      "mean_shap": -0.0199,
+      "direction": "negative",
+      "_row": "BSCS_ZT1"
+    },
+    {
+      "feature": "ENV_T1",
+      "mean_abs_shap": 0.0772,
+      "mean_shap": 0.0085,
+      "direction": "positive",
+      "_row": "ENV_T1"
+    },
+    {
+      "feature": "SRHI_T1",
+      "mean_abs_shap": 0.0717,
+      "mean_shap": -0.0185,
+      "direction": "negative",
+      "_row": "SRHI_T1"
+    },
+    {
+      "feature": "TBP_T1",
+      "mean_abs_shap": 0.0651,
+      "mean_shap": -0.0097,
+      "direction": "negative",
+      "_row": "TBP_T1"
+    },
+    {
+      "feature": "Delayed_discount_T1",
+      "mean_abs_shap": 0.0628,
+      "mean_shap": 0.0066,
+      "direction": "positive",
+      "_row": "Delayed_discount_T1"
+    },
+    {
+      "feature": "CFS_F_T1",
+      "mean_abs_shap": 0.0557,
+      "mean_shap": -0.0021,
+      "direction": "negative",
+      "_row": "CFS_F_T1"
+    },
+    {
+      "feature": "PSSS_T1",
+      "mean_abs_shap": 0.0476,
+      "mean_shap": -0.0096,
+      "direction": "negative",
+      "_row": "PSSS_T1"
+    },
+    {
+      "feature": "EBBS_ZT1",
+      "mean_abs_shap": 0.0372,
+      "mean_shap": -0.0058,
+      "direction": "negative",
+      "_row": "EBBS_ZT1"
+    },
+    {
+      "feature": "HbA1c",
+      "mean_abs_shap": 0.0234,
+      "mean_shap": -0.0015,
+      "direction": "negative",
+      "_row": "HbA1c"
+    }
+  ],
+  "feature_stats": [
+    {
+      "feature": "BSCS_FT1",
+      "mean": -0.1069,
+      "sd": 1.0758,
+      "min": -2.361,
+      "max": 2.6164,
+      "_row": "BSCS_FT1"
+    },
+    {
+      "feature": "BSCS_ZT1",
+      "mean": 0.093,
+      "sd": 1.112,
+      "min": -2.3628,
+      "max": 2.6151,
+      "_row": "BSCS_ZT1"
+    },
+    {
+      "feature": "SRHI_T1",
+      "mean": 0.0898,
+      "sd": 0.8607,
+      "min": -1.8359,
+      "max": 1.8852,
+      "_row": "SRHI_T1"
+    },
+    {
+      "feature": "TBP_T1",
+      "mean": 0.0998,
+      "sd": 1.1089,
+      "min": -2.6016,
+      "max": 3.3139,
+      "_row": "TBP_T1"
+    },
+    {
+      "feature": "CFS_F_T1",
+      "mean": 0.0322,
+      "sd": 1.0875,
+      "min": -2.7172,
+      "max": 2.6914,
+      "_row": "CFS_F_T1"
+    },
+    {
+      "feature": "Delayed_discount_T1",
+      "mean": 0.026,
+      "sd": 0.9019,
+      "min": -1,
+      "max": 2.6551,
+      "_row": "Delayed_discount_T1"
+    },
+    {
+      "feature": "ENV_T1",
+      "mean": -0.0038,
+      "sd": 1.0314,
+      "min": -3.6108,
+      "max": 2.5172,
+      "_row": "ENV_T1"
+    },
+    {
+      "feature": "PSSS_T1",
+      "mean": 0.0818,
+      "sd": 0.7934,
+      "min": -1.986,
+      "max": 3.9912,
+      "_row": "PSSS_T1"
+    },
+    {
+      "feature": "HbA1c",
+      "mean": -0.012,
+      "sd": 1.0304,
+      "min": -1.8763,
+      "max": 1.7922,
+      "_row": "HbA1c"
+    },
+    {
+      "feature": "EBBS_ZT1",
+      "mean": -0.0339,
+      "sd": 0.9404,
+      "min": -2.0879,
+      "max": 2.7476,
+      "_row": "EBBS_ZT1"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": 1,
+      "features": {
+        "feature_BSCS_FT1": 0.4832,
+        "feature_BSCS_ZT1": 0.1261,
+        "feature_SRHI_T1": -0.5335,
+        "feature_TBP_T1": 3.3139,
+        "feature_CFS_F_T1": -0.6138,
+        "feature_Delayed_discount_T1": -1,
+        "feature_ENV_T1": 0.1928,
+        "feature_PSSS_T1": 1.0833,
+        "feature_HbA1c": 0.9035,
+        "feature_EBBS_ZT1": 1.8266
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": -0.0788,
+        "shap_BSCS_ZT1": -0.0329,
+        "shap_SRHI_T1": 0.0411,
+        "shap_TBP_T1": -0.3228,
+        "shap_CFS_F_T1": 0.0408,
+        "shap_Delayed_discount_T1": -0.0891,
+        "shap_ENV_T1": -0.0185,
+        "shap_PSSS_T1": -0.1042,
+        "shap_HbA1c": 0.0229,
+        "shap_EBBS_ZT1": 0.0796
+      },
+      "prediction": 0.1412
+    },
+    {
+      "sample_id": 2,
+      "features": {
+        "feature_BSCS_FT1": -0.5833,
+        "feature_BSCS_ZT1": -0.2887,
+        "feature_SRHI_T1": -1.0916,
+        "feature_TBP_T1": -1.6157,
+        "feature_CFS_F_T1": -0.9143,
+        "feature_Delayed_discount_T1": 0.705,
+        "feature_ENV_T1": 0.8267,
+        "feature_PSSS_T1": 0.9218,
+        "feature_HbA1c": 0.727,
+        "feature_EBBS_ZT1": -0.2458
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": 0.0929,
+        "shap_BSCS_ZT1": 0.0332,
+        "shap_SRHI_T1": 0.088,
+        "shap_TBP_T1": 0.1205,
+        "shap_CFS_F_T1": 0.0542,
+        "shap_Delayed_discount_T1": 0.0591,
+        "shap_ENV_T1": -0.0533,
+        "shap_PSSS_T1": -0.059,
+        "shap_HbA1c": 0.0147,
+        "shap_EBBS_ZT1": -0.0099
+      },
+      "prediction": 0.9438
+    },
+    {
+      "sample_id": 3,
+      "features": {
+        "feature_BSCS_FT1": 0.8387,
+        "feature_BSCS_ZT1": -1.948,
+        "feature_SRHI_T1": 0.955,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": 0.5881,
+        "feature_Delayed_discount_T1": -0.6843,
+        "feature_ENV_T1": 0.1928,
+        "feature_PSSS_T1": -0.0475,
+        "feature_HbA1c": 1.0295,
+        "feature_EBBS_ZT1": 1.3661
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": -0.1277,
+        "shap_BSCS_ZT1": 0.2715,
+        "shap_SRHI_T1": -0.1134,
+        "shap_TBP_T1": -0.0295,
+        "shap_CFS_F_T1": -0.0396,
+        "shap_Delayed_discount_T1": -0.0638,
+        "shap_ENV_T1": -0.0105,
+        "shap_PSSS_T1": -0.0022,
+        "shap_HbA1c": 0.0328,
+        "shap_EBBS_ZT1": 0.0759
+      },
+      "prediction": 0.5966
+    },
+    {
+      "sample_id": 4,
+      "features": {
+        "feature_BSCS_FT1": -2.361,
+        "feature_BSCS_ZT1": 0.9558,
+        "feature_SRHI_T1": 0.0247,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": 1.189,
+        "feature_Delayed_discount_T1": 0.7824,
+        "feature_ENV_T1": -0.0185,
+        "feature_PSSS_T1": -0.8552,
+        "feature_HbA1c": -1.4981,
+        "feature_EBBS_ZT1": -0.7063
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": 0.3684,
+        "shap_BSCS_ZT1": -0.1072,
+        "shap_SRHI_T1": -0.0042,
+        "shap_TBP_T1": -0.0201,
+        "shap_CFS_F_T1": -0.0621,
+        "shap_Delayed_discount_T1": 0.0756,
+        "shap_ENV_T1": 0.0151,
+        "shap_PSSS_T1": 0.0638,
+        "shap_HbA1c": -0.0369,
+        "shap_EBBS_ZT1": -0.0345
+      },
+      "prediction": 0.8612
+    },
+    {
+      "sample_id": 5,
+      "features": {
+        "feature_BSCS_FT1": 0.8387,
+        "feature_BSCS_ZT1": 1.3706,
+        "feature_SRHI_T1": -1.4638,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": -1.2148,
+        "feature_Delayed_discount_T1": -0.4951,
+        "feature_ENV_T1": -3.6108,
+        "feature_PSSS_T1": -0.6937,
+        "feature_HbA1c": -1.0569,
+        "feature_EBBS_ZT1": 0.445
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": -0.0795,
+        "shap_BSCS_ZT1": -0.1352,
+        "shap_SRHI_T1": 0.1196,
+        "shap_TBP_T1": -0.0159,
+        "shap_CFS_F_T1": 0.0685,
+        "shap_Delayed_discount_T1": -0.0292,
+        "shap_ENV_T1": 0.3455,
+        "shap_PSSS_T1": 0.0453,
+        "shap_HbA1c": -0.0245,
+        "shap_EBBS_ZT1": 0.0182
+      },
+      "prediction": 0.9159
+    },
+    {
+      "sample_id": 6,
+      "features": {
+        "feature_BSCS_FT1": -2.361,
+        "feature_BSCS_ZT1": 2.6151,
+        "feature_SRHI_T1": 0.0247,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": 1.79,
+        "feature_Delayed_discount_T1": 1.0127,
+        "feature_ENV_T1": 1.2493,
+        "feature_PSSS_T1": 3.9912,
+        "feature_HbA1c": -1.2712,
+        "feature_EBBS_ZT1": 0.445
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": 0.2542,
+        "shap_BSCS_ZT1": -0.3157,
+        "shap_SRHI_T1": -0.0149,
+        "shap_TBP_T1": -0.0287,
+        "shap_CFS_F_T1": -0.0934,
+        "shap_Delayed_discount_T1": 0.0765,
+        "shap_ENV_T1": -0.1015,
+        "shap_PSSS_T1": -0.3011,
+        "shap_HbA1c": -0.0312,
+        "shap_EBBS_ZT1": 0.0142
+      },
+      "prediction": 0.0614
+    },
+    {
+      "sample_id": 7,
+      "features": {
+        "feature_BSCS_FT1": -1.6499,
+        "feature_BSCS_ZT1": -1.5332,
+        "feature_SRHI_T1": 0.3968,
+        "feature_TBP_T1": -0.6298,
+        "feature_CFS_F_T1": -0.9143,
+        "feature_Delayed_discount_T1": -0.6216,
+        "feature_ENV_T1": 1.8833,
+        "feature_PSSS_T1": -0.0475,
+        "feature_HbA1c": -1.8763,
+        "feature_EBBS_ZT1": 0.6753
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": 0.2435,
+        "shap_BSCS_ZT1": 0.1721,
+        "shap_SRHI_T1": -0.0346,
+        "shap_TBP_T1": 0.0554,
+        "shap_CFS_F_T1": 0.0562,
+        "shap_Delayed_discount_T1": -0.0401,
+        "shap_ENV_T1": -0.1455,
+        "shap_PSSS_T1": 0.0045,
+        "shap_HbA1c": -0.0429,
+        "shap_EBBS_ZT1": 0.0288
+      },
+      "prediction": 0.9005
+    },
+    {
+      "sample_id": 8,
+      "features": {
+        "feature_BSCS_FT1": -1.6499,
+        "feature_BSCS_ZT1": -0.2887,
+        "feature_SRHI_T1": -0.3474,
+        "feature_TBP_T1": -1.6157,
+        "feature_CFS_F_T1": -0.3134,
+        "feature_Delayed_discount_T1": 1.7097,
+        "feature_ENV_T1": 0.4041,
+        "feature_PSSS_T1": -0.209,
+        "feature_HbA1c": -1.3909,
+        "feature_EBBS_ZT1": -0.7063
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": 0.1704,
+        "shap_BSCS_ZT1": 0.0283,
+        "shap_SRHI_T1": 0.0193,
+        "shap_TBP_T1": 0.0917,
+        "shap_CFS_F_T1": 0.018,
+        "shap_Delayed_discount_T1": 0.1011,
+        "shap_ENV_T1": -0.0154,
+        "shap_PSSS_T1": 0.0114,
+        "shap_HbA1c": -0.0226,
+        "shap_EBBS_ZT1": -0.0218
+      },
+      "prediction": 0.9836
+    },
+    {
+      "sample_id": 9,
+      "features": {
+        "feature_BSCS_FT1": 0.4832,
+        "feature_BSCS_ZT1": 0.541,
+        "feature_SRHI_T1": 1.3271,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": -0.0129,
+        "feature_Delayed_discount_T1": -0.3739,
+        "feature_ENV_T1": -0.4412,
+        "feature_PSSS_T1": 0.4372,
+        "feature_HbA1c": -0.9371,
+        "feature_EBBS_ZT1": 1.8266
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": -0.0842,
+        "shap_BSCS_ZT1": -0.0992,
+        "shap_SRHI_T1": -0.1728,
+        "shap_TBP_T1": -0.0368,
+        "shap_CFS_F_T1": -0.0001,
+        "shap_Delayed_discount_T1": -0.0367,
+        "shap_ENV_T1": 0.0535,
+        "shap_PSSS_T1": -0.0515,
+        "shap_HbA1c": -0.0304,
+        "shap_EBBS_ZT1": 0.0963
+      },
+      "prediction": 0.2414
+    },
+    {
+      "sample_id": 10,
+      "features": {
+        "feature_BSCS_FT1": 0.8387,
+        "feature_BSCS_ZT1": 0.1261,
+        "feature_SRHI_T1": 1.5131,
+        "feature_TBP_T1": 0.3561,
+        "feature_CFS_F_T1": -0.0129,
+        "feature_Delayed_discount_T1": -0.3743,
+        "feature_ENV_T1": 0.1928,
+        "feature_PSSS_T1": -0.3706,
+        "feature_HbA1c": -0.4959,
+        "feature_EBBS_ZT1": -0.476
+      },
+      "shap_values": {
+        "shap_BSCS_FT1": -0.1411,
+        "shap_BSCS_ZT1": -0.037,
+        "shap_SRHI_T1": -0.1811,
+        "shap_TBP_T1": -0.0342,
+        "shap_CFS_F_T1": -0.0026,
+        "shap_Delayed_discount_T1": -0.034,
+        "shap_ENV_T1": -0.02,
+        "shap_PSSS_T1": 0.021,
+        "shap_HbA1c": -0.0172,
+        "shap_EBBS_ZT1": -0.0316
+      },
+      "prediction": 0.1254
+    }
+  ]
+}
